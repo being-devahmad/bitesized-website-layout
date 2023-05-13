@@ -1,0 +1,31 @@
+@font-face {
+    font-family: myFont;
+    src: url(fonts/rangesans-medium.ttf);
+}
+@font-face {
+    font-family: myFont2;
+    src: url(fonts/rangesans-bold.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: myFont;
+}
+.hero-bg{
+    background-color: #5DA9E914;
+}
+.hero-text h1{
+    font-size: 40px;
+    font-family: myFont2 !important;
+}
+.heroCard{
+    margin-top: -220px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 480px;
+}
+.card-text ul li{
+    line-height: 26px;
+}
+.color-progress-bar{
+    background-color: #AA7B2F !important;
+}
